@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Farmácia Saúde Total</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <i class="fas fa-pills"></i>
+        <h1>Farmácia <span>Saúde Total</span></h1>
+      </div>
+      <nav>
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="produtos.html"><i class="fas fa-shopping-bag"></i> Produtos</a>
+        <a href="login.html" class="active"><i class="fas fa-user"></i> Login</a>
+        <a href="cadastro.html"><i class="fas fa-user-plus"></i> Cadastro</a>
+        <a href="contato.html"><i class="fas fa-envelope"></i> Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="auth-page">
+    <div class="container">
+      <div class="auth-container">
+        <h2><i class="fas fa-sign-in-alt"></i> Faça seu Login</h2>
+        <form class="auth-form">
+          <div class="form-group">
+            <label for="email"><i class="fas fa-envelope"></i> E-mail</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail" required>
+          </div>
+          <div class="form-group">
+            <label for="senha"><i class="fas fa-lock"></i> Senha</label>
+            <input type="password" id="senha" placeholder="Digite sua senha" required>
+          </div>
+          <button type="submit" class="btn btn-secondary">Entrar</button>
+          <p class="auth-link">Não tem uma conta? <a href="cadastro.html">Cadastre-se aqui</a></p>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Farmácia Saúde Total. Todos os direitos reservados.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
