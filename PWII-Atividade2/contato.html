@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Farmácia Saúde Total</title>
+    <link rel="stylesheet" href="publico/css/contato.css">
+   
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <i class="fas fa-pills"></i>
+        <h1>Farmácia <span>Saúde Total</span></h1>
+      </div>
+      <nav>
+        <a href="./login.html"><i class="fas fa-home"></i> Home</a>
+        <a href="./produtos.html"><i class="fas fa-shopping-bag"></i> Produtos</a>
+        <a href="./login.html"><i class="fas fa-user"></i> Login</a>
+        <a href="./cadastro.html"><i class="fas fa-user-plus"></i> Cadastro</a>
+        <a href="./contato.html" class="active"><i class="fas fa-envelope"></i> Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contact-page">
+    <div class="container">
+      <h2><i class="fas fa-headset"></i> Fale Conosco</h2>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Informações de Contato</h3>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Rua Saúde, 123 - Centro, São Paulo/SP</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <p>(11) 1234-5678</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <p>contato@farmaciast.com.br</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-clock"></i>
+            <p>Segunda a Sexta: 8h às 20h<br>Sábado: 9h às 18h</p>
+          </div>
+        </div>
+        
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Seu nome completo" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="seu@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" rows="5" placeholder="Sua mensagem..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-secondary">Enviar Mensagem</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Farmácia Saúde Total. Todos os direitos reservados.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
